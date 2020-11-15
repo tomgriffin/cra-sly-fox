@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: darkred;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: darkorchid;
+  }
+  h1 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: darkorange;
+  }
+}
+

@@ -1,5 +1,6 @@
 import React from 'react'
 import request from 'superagent'
+import './App.css'
 
 class App extends React.Component {
   state = {
@@ -19,10 +20,10 @@ class App extends React.Component {
     const { url } = this.state
 
     return (
-      <>
+      <div className='bkgd'>
         <h1>Thanks randomfox.ca for the sly fox pic!</h1>
         <img src={ url } alt="A random sly fox pic."/>
-      </>
+      </div>
     )
   }
 }
