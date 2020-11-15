@@ -36,25 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-
-
-/* @media only screen and (max-width: 320px) {
-  .bkgd {
-    background-color: aqua;
-  }
-}
-
-
-
-@media only screen and (max-width: 1200px) {
-  .bkgd {
-    background-color: yellow;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .bkgd {
-    background-color: blueviolet;
-  }
-} */
